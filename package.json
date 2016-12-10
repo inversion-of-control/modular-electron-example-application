@@ -2,9 +2,22 @@
   "name": "@inversion-of-control/modular-electron-example-application",
   "version": "0.0.1",
   "description": "Modular Electron Application",
-  "main": "index.js",
+  "main": "compiler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron-project compile"
+  },
+  "devDependencies": {
+    "@inversion-of-control/electron-project": "0.0.4"
+  },
+  "dependencies": {
+    "@inversion-of-control/modular-electron-example-renderer-a": "0.0.2",
+    "@inversion-of-control/modular-electron-example-renderer-b": "0.0.2",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  },
+  "electron_modules":{
+    "renderer-a": "@inversion-of-control/modular-electron-example-renderer-a",
+    "renderer-b": "@inversion-of-control/modular-electron-example-renderer-b"
   },
   "repository": {
     "type": "git",
