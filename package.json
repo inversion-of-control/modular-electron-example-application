@@ -7,7 +7,7 @@
     "start": "electron-project compile"
   },
   "devDependencies": {
-    "@inversion-of-control/electron-project": "0.0.4"
+    "@inversion-of-control/electron-project": "0.0.6"
   },
   "dependencies": {
     "@inversion-of-control/modular-electron-example-renderer-a": "0.0.2",
